@@ -10,7 +10,7 @@ namespace SFactions
     {
         public override string Name => "BridgeBuilder";
         public override Version Version => new Version(1, 0, 2);
-        public override string Author => "Soofa，肝帝熙恩汉化";
+        public override string Author => "Soofa，肝帝熙恩汉化1449";
         public override string Description => "铺桥!";
         public SFactions(Main game) : base(game)
         {
@@ -20,7 +20,7 @@ namespace SFactions
 
         public override void Initialize()
         {
-            TShockAPI.Commands.ChatCommands.Add(new("bridgebuilder.bridge", BridgeCmd, "bridge")
+            TShockAPI.Commands.ChatCommands.Add(new("bridgebuilder.bridge", BridgeCmd, "bridge" , "桥来")
             {
                 AllowServer = false,
                 HelpText = "朝着你看的方向建造桥梁。（你需要持有一定数量的平台或团队块或种植盆。）"
