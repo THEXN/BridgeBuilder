@@ -1,11 +1,11 @@
-# BridgeBuilder
-A TShock instant bridge builder plugin.
+# 铺桥插件
+一个 TShock 的快速铺桥插件。
 
-## Permissions
-| Permissions          | Commands               |
+## 权限
+| 权限名               | 命令                   |
 |----------------------|------------------------|
 | bridgebuilder.bridge | bridge                 |
 
-> First of all, player needs to be holding platforms, planter boxes or walls in their hand. <br>
-> When player uses the command ``/bridge`` server will start placing platforms/planter boxes/walls at the player's direction. <br>
-> Placement process will stop when there is a block on the way.
+> 首先，玩家需要手持平台、种植箱或墙壁。 <br>
+> 当玩家使用命令“/bridge”时，服务器将开始在玩家的方向放置平台/种植箱/墙壁。 <br>
+> 当路径上有方块时，放置过程将停止。
