@@ -16,7 +16,7 @@ namespace SFactions
         {
         }
 
-        private static int[] AllowedTileIDs = { 19, 380, 427, 435, 436, 437, 438, 439 };
+        private static int[] AllowedTileIDs = { 19, 380, 427, 435, 436, 437, 438, 439 }; 
 
         public override void Initialize()
         {
