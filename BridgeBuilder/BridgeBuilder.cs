@@ -10,7 +10,7 @@ namespace SFactions
     public class SFactions : TerrariaPlugin
     {
         public override string Name => "BridgeBuilder";
-        public override Version Version => new Version(1, 0, 3);
+        public override Version Version => new Version(1, 0, 5);
         public override string Author => "Soofa，肝帝熙恩汉化1449";
         public override string Description => "铺桥!";
         public static Configuration Config;
@@ -106,7 +106,7 @@ namespace SFactions
         private static bool CheckTileAvailability(int startX, int x, int y, TSPlayer plr)
         {
             return x < Main.maxTilesX && x >= 0 &&
-                   Math.Abs(startX - x) < 256 &&
+                   Math.Abs(startX - x) < Config.MaxPlaceLength &&
                    plr.SelectedItem.stack > 0 &&
                    !TShock.Regions.InArea(x, y) &&
                    !Main.tile[x, y].active();
