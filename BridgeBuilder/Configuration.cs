@@ -9,7 +9,7 @@ namespace SFactions
     public class Configuration
     {
         public static readonly string FilePath = Path.Combine(TShock.SavePath, "铺桥配置.json");
-
+        [JsonProperty("允许快速铺路方块id")]
         public int[] AllowedTileIDs { get; set; } = { 19, 380, 427, 435, 436, 437, 438, 439 };
 
         public void Write(string path)
