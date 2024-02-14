@@ -10,7 +10,7 @@ namespace SFactions
     public class SFactions : TerrariaPlugin
     {
         public override string Name => "BridgeBuilder";
-        public override Version Version => new Version(1, 0, 2);
+        public override Version Version => new Version(1, 0, 3);
         public override string Author => "Soofa，肝帝熙恩汉化1449";
         public override string Description => "铺桥!";
         public static Configuration Config;
